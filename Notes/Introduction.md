@@ -66,7 +66,7 @@ File checking using VirusTotal:
 - CySA+
 - CCNA
 - GCIH
-- GCIP
+- GCIA
 
 # Cybersecurity Basics
 
