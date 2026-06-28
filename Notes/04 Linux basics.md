@@ -186,6 +186,15 @@ chmod 754 file.txt
 | `600` | Used for sensitive files (SSH keys, credentials). Only the owner has read/write access. |
 | `400` | Read-only for the owner. Often used to protect private keys and other critical files. |
 
+#### Why these five?
+
+777 → Immediate red flag during audits or incident response.
+755 → Normal for scripts, binaries, and directories.
+644 → The default for many Linux files.
+600 → Common for secrets (~/.ssh/id_rsa, credentials, tokens).
+400 → Used when a file should never be modified accidentally.
+
+
 ### Command
 
 ```bash
