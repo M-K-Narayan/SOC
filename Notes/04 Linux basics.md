@@ -238,11 +238,19 @@ chmod
 ### Common `systemctl` Commands
 
 ```bash
-systemctl start
-systemctl stop
-systemctl enable
-systemctl disable
-systemctl status
+systemctl start <process-name>
+```
+```
+systemctl stop <process-name>
+```
+```
+systemctl enable <process-name>
+```
+```
+systemctl disable <process-name>
+```
+```
+systemctl status <process-name>
 ```
 
 ---
