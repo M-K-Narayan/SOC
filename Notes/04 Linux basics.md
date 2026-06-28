@@ -189,9 +189,13 @@ chmod 754 file.txt
 #### Why these five?
 
 777 → Immediate red flag during audits or incident response.
+
 755 → Normal for scripts, binaries, and directories.
+
 644 → The default for many Linux files.
+
 600 → Common for secrets (~/.ssh/id_rsa, credentials, tokens).
+
 400 → Used when a file should never be modified accidentally.
 
 
