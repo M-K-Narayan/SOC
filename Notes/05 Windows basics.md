@@ -244,13 +244,3 @@ sc.exe
 - Process Hacker - is now known as System Informer (though many people still refer to it by its old name).
 
 ---
-
-## Corrections Made
-
-- Corrected **NTOSKERNEL.exe** to **NTOSKRNL.exe**.
-- Corrected **winint.exe** to **wininit.exe**.
-- Clarified that **System32** is commonly targeted by persistent malware but is **not** the persistence mechanism itself.
-- Corrected the Task Manager shortcut from **Ctrl + Shift + Exc** to **Ctrl + Shift + Esc**.
-- Changed `eventvwr` path references to **Event Viewer → Windows Logs** for consistency.
-- Clarified that Event IDs may vary depending on the Windows version and log source.
-- Corrected spelling, grammar, capitalization, and Windows path formatting throughout.
