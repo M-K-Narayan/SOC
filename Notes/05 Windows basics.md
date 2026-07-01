@@ -171,7 +171,9 @@ netstat -ano
 - Numerical addresses.
 - Associated PID.
 
-- `tasklist`
+- ```
+- tasklist
+- ```
   - Lists running processes.
 
 - `taskkill /PID <PID> /F`
