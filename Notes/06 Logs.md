@@ -185,11 +185,3 @@ Website:
 - Time synchronization issues (incorrect system clocks make investigations difficult)
 
 ---
-
-## Corrections Made
-
-- Corrected "every activity or process create a log" to "every activity or process generates logs."
-- Corrected "anamolies" to "anomalies."
-- Corrected "ElacticSearch" to "Elasticsearch."
-- Clarified that **Wireshark** captures and analyzes network packets rather than traditional system logs.
-- Improved wording and formatting while preserving the original note-taking style.
